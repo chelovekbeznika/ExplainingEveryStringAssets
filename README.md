@@ -1,5 +1,6 @@
 # explainingeverystringassets
 This repository belongs to youtube channel "explaining every string" and keeps assets for game with same title.
+
 [Link to code repository](https://github.com/chelovekbeznika/ExplainingEveryString)
 ## Necessary folder structure
 There are two repositories and they require recreating next folder structure to work correctly:
