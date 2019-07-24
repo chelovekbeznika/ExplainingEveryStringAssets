@@ -6,7 +6,7 @@ There are two repositories and they require recreating next folder structure to 
 * Build
 * Source
    * ExplainingEveryString [CODE REPOSITORY HERE](https://github.com/chelovekbeznika/ExplainingEveryString)
-* Content (THIS REPOSITORY HERE)
+* ExplainingEveryStringAssets (THIS REPOSITORY HERE)
 ## How to add/edit sprite
 1. Draw it in aserprite and save in Raw/Sprites in appropriate subfolder or edit existing folder
 2. Export it as spritesheet in Ready/Sprites in appropriate subfolder
