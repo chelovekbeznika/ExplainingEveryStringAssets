@@ -68,6 +68,12 @@
 /processorParam:Quality=Best
 /build:Sounds/Hit_01.wav
 
+#begin Sounds/PlayerDeath.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/PlayerDeath.wav
+
 #begin Sounds/PlayerShoot.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
@@ -793,18 +799,6 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Sprites/Player/Death.png
-
-#begin Sprites/Player/PlayerBullet.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Sprites/Player/PlayerBullet.png
 
 #begin Sprites/Player/PlayerBullet.png
 /importer:TextureImporter
