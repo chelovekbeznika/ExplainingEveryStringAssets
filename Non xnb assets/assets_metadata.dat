@@ -53,6 +53,14 @@
       "AnimationFrames": 2
     },
     {
+      "Name": "Sprites/Player/Death",
+      "AnimationFrames": 13
+    },
+	{
+      "Name": "Sprites/Player/CannonDeath",
+      "AnimationFrames": 9
+    },
+    {
       "Name": "Sprites/Enemies/Level1X/TankBase",
       "AnimationFrames": 3
     },
