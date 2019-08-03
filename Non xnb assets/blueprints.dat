@@ -489,7 +489,23 @@
         "Name": "Sounds/Hit_01",
         "Volume": 1.0
       }
-    }
+    },
+	"BaseDestructionEffect": {
+	  "Sound": {
+	    "Name": "Sounds/PlayerDeath",
+		"Volume": 0.5
+	  },
+	  "Sprite": {
+	    "Name": "Sprites/Player/Death",
+		"AnimationCycle": 0.5
+	  }
+	},
+	"CannonDestructionEffect": {
+	  "Sprite": {
+	    "Name": "Sprites/Player/CannonDeath",
+		"AnimationCycle": 1.5
+	  }
+	}
   },
   "DefaultVerticalDoor": {
     "$type": "ExplainingEveryString.Data.Blueprints.DoorBlueprint, ExplainingEveryString.Data",
