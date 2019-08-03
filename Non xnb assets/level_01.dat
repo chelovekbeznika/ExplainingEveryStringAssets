@@ -15,24 +15,6 @@
         "Width": 6,
         "Height": 1
       },
-      "Enemies": [
-        {
-          "BlueprintType": "TripleCannon_mk1",
-          "Angle": -105.0,
-          "TilePosition": {
-            "X": 51,
-            "Y": 10
-          }
-        }
-      ]
-    },
-    {
-      "StartRegion": {
-        "X": 35,
-        "Y": 29,
-        "Width": 6,
-        "Height": 1
-      },
       "Doors": [
         {
           "BlueprintType": "TestDoor",
@@ -53,7 +35,6 @@
         },
         {
           "BlueprintType": "Hunter",
-          "AppearancePhaseDuration": 10.0,
           "TilePosition": {
             "X": 29,
             "Y": 20
