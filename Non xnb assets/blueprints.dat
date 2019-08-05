@@ -66,6 +66,24 @@
     "DefaultSprite": {
       "Name": "Sprites/Enemies/Hunter"
     },
+	"PostMortemSurprise": {
+	  "AimType": "AimAtPlayer",
+	  "Barrels": [
+	    {
+          "Length": 0.0,
+          "Bullet": {
+            "TrajectoryParameters": {
+              "speed": 200.0
+            },
+            "Damage": 0.5,
+            "TimeToLive": 5.0,
+            "Sprite": {
+              "Name": "Sprites/Enemies/EnemyBullet"
+            }
+          }
+        }
+	  ]
+	},
     "DeathEffect": {
       "Sound": {
         "Name": "Sounds/Explosion_01",
