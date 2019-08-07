@@ -67,22 +67,24 @@
       "Name": "Sprites/Enemies/Hunter"
     },
 	"PostMortemSurprise": {
-	  "AimType": "AimAtPlayer",
-	  "Barrels": [
-	    {
-          "Length": 0.0,
-          "Bullet": {
-            "TrajectoryParameters": {
-              "speed": 200.0
-            },
-            "Damage": 0.5,
-            "TimeToLive": 5.0,
-            "Sprite": {
-              "Name": "Sprites/Enemies/EnemyBullet"
+	  "Weapon": {
+	  	"AimType": "AimAtPlayer",
+	    "Barrels": [
+	      {
+            "Length": 0.0,
+            "Bullet": {
+              "TrajectoryParameters": {
+                "speed": 200.0
+              },
+              "Damage": 0.5,
+              "TimeToLive": 5.0,
+              "Sprite": {
+                "Name": "Sprites/Enemies/EnemyBullet"
+              }
             }
           }
-        }
-	  ]
+	    ]
+	  }
 	},
     "DeathEffect": {
       "Sound": {
@@ -93,13 +95,13 @@
     "BeforeAppearanceEffect": {
       "Sound": {
         "Name": "Sounds/StandardEnemy/Appearance",
-        "Volume": 0.2
+        "Volume": 0.1
       }
     },
     "AfterAppearanceEffect": {
       "Sound": {
         "Name": "Sounds/StandardEnemy/Appearance",
-        "Volume": 0.5
+        "Volume": 0.2
       }
     },
     "AppearancePhaseSprite": {
@@ -197,7 +199,7 @@
     "Mover": {
       "Type": "Linear",
       "Parameters": {
-        "speed": 200.0
+        "speed": 2.0
       }
     },
     "MoveTargetSelectType": "TargetsList",
@@ -270,8 +272,25 @@
       "Reloader": {
         "FireRate": 1
       },
+	  "PositionSelector" : {
+	    "$type": "ExplainingEveryString.Data.Specifications.LevelSpawnPositionSelectorSpecification, ExplainingEveryString.Data"
+	  },
       "BlueprintType": "Hunter"
-    }
+    },
+	"PostMortemSurprise": {
+	  "Spawn": {
+	    "AvengersAmount": 3,
+		"AvengersType": "Hunter",
+		"PositionSelector" : {
+		  "$type": "ExplainingEveryString.Data.Specifications.RelativeSpawnPositionSelectorSpecificaton, ExplainingEveryString.Data",
+		  "SpawnPositions": [
+		    "-150.0, 150.0",
+			"150.0, 150.0",
+			"0.0, -150.0"
+		  ]
+		}
+	  }
+	}
   },
   "EvilEye": {
     "$type": "ExplainingEveryString.Data.Blueprints.EnemyBlueprint, ExplainingEveryString.Data",
@@ -1024,6 +1043,9 @@
       "Reloader": {
         "FireRate": 0.2
       },
+	  "PositionSelector" : {
+	    "$type": "ExplainingEveryString.Data.Specifications.LevelSpawnPositionSelectorSpecification, ExplainingEveryString.Data"
+	  },
       "BlueprintType": "Hunter_mk1"
     }
   },
