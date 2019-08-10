@@ -12,6 +12,18 @@
       "Name": "Sprites/Doors/TestDoorUp",
       "AnimationFrames": 8
     },
+	{
+	  "Name": "Sprites/Doors/BrigdeBlockerOpening",
+	  "AnimationFrames": 8
+	},
+	{
+	  "Name": "Sprites/Walls/Level1X/BottomLamp",
+	  "AnimationFrames": 3
+	},
+	{
+	  "Name": "Sprites/Walls/Level1X/TopLamp",
+	  "AnimationFrames": 3
+	},
     {
       "Name": "Sprites/Explosions/01",
       "AnimationFrames": 12
