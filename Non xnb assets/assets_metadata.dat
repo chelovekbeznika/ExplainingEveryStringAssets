@@ -13,10 +13,6 @@
       "AnimationFrames": 8
     },
 	{
-	  "Name": "Sprites/Doors/BrigdeBlockerOpening",
-	  "AnimationFrames": 8
-	},
-	{
 	  "Name": "Sprites/Walls/Level1X/BottomLamp",
 	  "AnimationFrames": 3
 	},
@@ -125,12 +121,16 @@
       "AnimationFrames": 7
     },
     {
-      "Name": "Sprites/Doors/IceDoorOpening",
+      "Name": "Sprites/Doors/Level1X/IceDoorOpening",
       "AnimationFrames": 8
     },
     {
-      "Name": "Sprites/Doors/BigIceDoorOpening",
+      "Name": "Sprites/Doors/Level1X/BigIceDoorOpening",
       "AnimationFrames": 8
-    }
+    },	
+	{
+	  "Name": "Sprites/Doors/Level1X/BrigdeBlockerOpening",
+	  "AnimationFrames": 8
+	},
   ]
 }

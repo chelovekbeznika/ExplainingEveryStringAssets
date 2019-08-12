@@ -1054,10 +1054,10 @@
     "Height": 16,
     "Width": 96,
     "DefaultSprite": {
-      "Name": "Sprites/Doors/IceDoor"
+      "Name": "Sprites/Doors/Level1X/IceDoor"
     },
     "OpeningSprite": {
-      "Name": "Sprites/Doors/IceDoorOpening",
+      "Name": "Sprites/Doors/Level1X/IceDoorOpening",
       "AnimationCycle": 1.0
     },
     "OpeningStartedEffect": {
@@ -1072,10 +1072,10 @@
     "Height": 16,
     "Width": 160,
     "DefaultSprite": {
-      "Name": "Sprites/Doors/BigIceDoor"
+      "Name": "Sprites/Doors/Level1X/BigIceDoor"
     },
     "OpeningSprite": {
-      "Name": "Sprites/Doors/BigIceDoorOpening",
+      "Name": "Sprites/Doors/Level1X/BigIceDoorOpening",
       "AnimationCycle": 2.0
     },
     "OpeningStartedEffect": {
@@ -1090,10 +1090,10 @@
     "Height": 704,
     "Width": 512,
     "DefaultSprite": {
-      "Name": "Sprites/Doors/IceRoomCenterLevel11"
+      "Name": "Sprites/Doors/Level1X/IceRoomCenterLevel11"
     },
     "OpeningSprite": {
-      "Name": "Sprites/Doors/IceRoomCenterLevel11Opening",
+      "Name": "Sprites/Doors/Level1X/IceRoomCenterLevel11Opening",
       "AnimationCycle": 2.0
     }
   }

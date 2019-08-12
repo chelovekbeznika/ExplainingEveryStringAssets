@@ -128,54 +128,6 @@
 /processorParam:Quality=Best
 /build:Sounds/TripleCannonShoot.wav
 
-#begin Sprites/Doors/BigIceDoor.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Sprites/Doors/BigIceDoor.png
-
-#begin Sprites/Doors/BigIceDoorOpening.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Sprites/Doors/BigIceDoorOpening.png
-
-#begin Sprites/Doors/BridgeBlocker.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Sprites/Doors/BridgeBlocker.png
-
-#begin Sprites/Doors/BridgeBlockerOpening.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Sprites/Doors/BridgeBlockerOpening.png
-
 #begin Sprites/Doors/DefaultVertical.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -200,7 +152,7 @@
 /processorParam:TextureFormat=Color
 /build:Sprites/Doors/DefaultVerticalOpening.png
 
-#begin Sprites/Doors/IceDoor.png
+#begin Sprites/Doors/Level1X/BigIceDoor.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -210,9 +162,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Sprites/Doors/IceDoor.png
+/build:Sprites/Doors/Level1X/BigIceDoor.png
 
-#begin Sprites/Doors/IceDoorOpening.png
+#begin Sprites/Doors/Level1X/BigIceDoorOpening.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -222,9 +174,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Sprites/Doors/IceDoorOpening.png
+/build:Sprites/Doors/Level1X/BigIceDoorOpening.png
 
-#begin Sprites/Doors/IceRoomCenterLevel11.png
+#begin Sprites/Doors/Level1X/BridgeBlocker.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -234,9 +186,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Sprites/Doors/IceRoomCenterLevel11.png
+/build:Sprites/Doors/Level1X/BridgeBlocker.png
 
-#begin Sprites/Doors/IceRoomCenterLevel11Opening.png
+#begin Sprites/Doors/Level1X/BridgeBlockerOpening.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -246,7 +198,55 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Sprites/Doors/IceRoomCenterLevel11Opening.png
+/build:Sprites/Doors/Level1X/BridgeBlockerOpening.png
+
+#begin Sprites/Doors/Level1X/IceDoor.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/Doors/Level1X/IceDoor.png
+
+#begin Sprites/Doors/Level1X/IceDoorOpening.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/Doors/Level1X/IceDoorOpening.png
+
+#begin Sprites/Doors/Level1X/IceRoomCenterLevel11.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/Doors/Level1X/IceRoomCenterLevel11.png
+
+#begin Sprites/Doors/Level1X/IceRoomCenterLevel11Opening.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/Doors/Level1X/IceRoomCenterLevel11Opening.png
 
 #begin Sprites/Doors/TestDoor.png
 /importer:TextureImporter
