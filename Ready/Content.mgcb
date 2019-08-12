@@ -942,6 +942,11 @@
 /processor:TiledMapProcessor
 /build:TileMaps/Level_11.tmx
 
+#begin TileMaps/Level_12.tmx
+/importer:TiledMapImporter
+/processor:TiledMapProcessor
+/build:TileMaps/Level_12.tmx
+
 #begin TileSets/level_01.png
 /importer:TextureImporter
 /processor:TextureProcessor
