@@ -132,5 +132,9 @@
 	  "Name": "Sprites/Doors/Level1X/BrigdeBlockerOpening",
 	  "AnimationFrames": 8
 	},
+	{
+	  "Name": "Sprites/Doors/Level1X/BridgeLockOpening",
+	  "AnimationFrames": 3
+	}
   ]
 }
