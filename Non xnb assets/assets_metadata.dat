@@ -77,6 +77,10 @@
       "AnimationFrames": 8
     },
     {
+      "Name": "Sprites/Enemies/Level1X/MonorailCannon",
+	  "AnimationFrames": 6
+    },
+    {
       "Name": "Sprites/Enemies/Level1X/Helicopter",
       "AnimationFrames": 4
     },
@@ -115,6 +119,10 @@
     {
       "Name": "Sprites/Enemies/Level1X/Death/TripleCannon",
       "AnimationFrames": 7
+    },
+    {
+      "Name": "Sprites/Enemies/Level1X/Death/MonorailCannon",
+	  "AnimationFrames": 11
     },
     {
       "Name": "Sprites/Enemies/Level1X/Death/Helicopter",

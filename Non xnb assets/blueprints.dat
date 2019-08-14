@@ -924,6 +924,72 @@
       "AimType": "AimAtPlayer"
     }
   },
+  "MonorailCannon": {
+    "$type": "ExplainingEveryString.Data.Blueprints.EnemyBlueprint, ExplainingEveryString.Data",
+    "CollisionDamage": 25.0,
+    "Height": 32.0,
+    "Width": 32.0,
+    "Hitpoints": 25.0,
+    "DefaultSprite": {
+      "Name": "Sprites/Enemies/Level1X/MonorailCannon",
+	  "AnimationCycle": 1.0
+    },
+    "DeathEffect": {
+      "Sound": {
+        "Name": "Sounds/StandardEnemy/MediumExplosion",
+        "Volume": 0.3
+      },
+      "Sprite": {
+        "Name": "Sprites/Enemies/Level1X/Death/MonorailCannon",
+        "AnimationCycle": 0.5
+      }
+    },
+    "AppearancePhaseSprite": {
+      "Name": "Sprites/Enemies/Appearance/32_32",
+      "AnimationCycle": 0.333333
+    },
+    "DefaultAppearancePhaseDuration": 1.0,
+    "AfterAppearanceEffect": {
+      "Sound": {
+        "Name": "Sounds/StandardEnemy/Appearance",
+        "Volume": 0.25
+      }
+    },
+    "Mover": {
+      "Type": "Linear",
+      "Parameters": {
+        "speed": 100.0
+      }
+    },
+    "MoveTargetSelectType": "TargetsList",
+    "Weapon": {
+      "Reloader": {
+        "FireRate": 0.66666667
+      },
+      "Barrels": [
+        {
+          "Length": 8.0,
+          "Bullet": {
+            "TrajectoryParameters": {
+              "speed": 320.0
+            },
+            "Damage": 25.0,
+            "TimeToLive": 5.0,
+            "Sprite": {
+              "Name": "Sprites/Enemies/EnemyBullet"
+            }
+          }
+        }
+      ],
+      "ShootingEffect": {
+        "Sound": {
+          "Name": "Sounds/StandardEnemy/LongShot",
+          "Volume": 0.2
+        }
+      },
+      "AimType": "AimAtPlayer"
+    }
+  },
   "Miniboss_mk11": {
     "$type": "ExplainingEveryString.Data.Blueprints.ShadowEnemyBlueprint, ExplainingEveryString.Data",
     "Type": "ShadowEnemy",
