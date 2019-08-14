@@ -1,0 +1,100 @@
+{
+  "TileMap": "TileMaps/Level_12",
+  "PlayerPosition": {
+    "BlueprintType": "Player",
+	"TilePosition": {
+	  "X":10,
+	  "Y":39,
+	  "Offset": "8.0, -8.0"
+	}
+  },
+  "EnemyWaves": [
+    {
+	  "StartRegion": {
+        "X": 42,
+        "Y": 30,
+        "Width": 5,
+        "Height": 20
+	  },
+	  "Doors": [
+	    {
+		  "BlueprintType": "BridgeBlocker",
+		  "TilePosition": {
+		    "X": 81,
+			"Y": 39,
+			"Offset": "8.0, -8.0"
+		  }
+		}
+	  ],
+	  "MaxEnemiesAtOnce": 2,
+	  "Enemies": [
+        {
+          "BlueprintType": "Tank_mk1",
+          "TilePosition": {
+            "X": 38,
+            "Y": 30,
+            "Offset": "8.0, -8.0"
+          }
+        },
+		{
+          "BlueprintType": "Tank_mk1",
+          "TilePosition": {
+            "X": 38,
+            "Y": 50,
+            "Offset": "8.0, 8.0"
+          }
+        },
+		{
+          "BlueprintType": "Tank_mk1",
+          "TilePosition": {
+            "X": 79,
+            "Y": 30,
+            "Offset": "8.0, -8.0"
+          }
+        },
+		{
+          "BlueprintType": "Tank_mk1",
+          "TilePosition": {
+            "X": 79,
+            "Y": 50,
+            "Offset": "8.0, 8.0"
+          }
+        },
+        {
+          "BlueprintType": "Tank_mk1",
+          "TilePosition": {
+            "X": 40,
+            "Y": 32,
+            "Offset": "8.0, -8.0"
+          }
+        },
+		{
+          "BlueprintType": "Tank_mk1",
+          "TilePosition": {
+            "X": 40,
+            "Y": 48,
+            "Offset": "8.0, 8.0"
+          }
+        },
+		{
+          "BlueprintType": "Tank_mk1",
+          "TilePosition": {
+            "X": 77,
+            "Y": 32,
+            "Offset": "8.0, -8.0"
+          }
+        },
+		{
+          "BlueprintType": "Tank_mk1",
+          "TilePosition": {
+            "X": 77,
+            "Y": 48,
+            "Offset": "8.0, 8.0"
+          }
+        }
+	  ]
+	}
+  ],
+  "WallsTilePositions": {
+  }
+}
