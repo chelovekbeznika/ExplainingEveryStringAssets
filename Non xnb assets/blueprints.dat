@@ -1096,5 +1096,53 @@
       "Name": "Sprites/Doors/Level1X/IceRoomCenterLevel11Opening",
       "AnimationCycle": 2.0
     }
+  },
+  "BridgeLock": {
+    "$type": "ExplainingEveryString.Data.Blueprints.DoorBlueprint, ExplainingEveryString.Data",
+    "Height": 64,
+    "Width": 32,
+    "DefaultSprite": {
+      "Name": "Sprites/Doors/Level1X/BridgeLock"
+    },
+    "OpeningSprite": {
+      "Name": "Sprites/Doors/Level1X/BridgeLockOpening",
+      "AnimationCycle": 2.0
+    }
+  },
+  "BridgeBlocker": {
+    "$type": "ExplainingEveryString.Data.Blueprints.DoorBlueprint, ExplainingEveryString.Data",
+    "Height": 320,
+    "Width":32,
+    "DefaultSprite": {
+      "Name": "Sprites/Doors/Level1X/BridgeBlocker"
+    },
+    "OpeningSprite": {
+      "Name": "Sprites/Doors/Level1X/BridgeBlockerOpening",
+      "AnimationCycle": 2.0
+    },
+    "OpeningStartedEffect": {
+      "Sound": {
+        "Name": "Sounds/TestOpeningDoor",
+        "Volume": 0.3
+      }
+    }
+  },
+  "BottomLamp": {
+    "$type": "ExplainingEveryString.Data.Blueprints.Blueprint, ExplainingEveryString.Data",
+    "Height": 16.0,
+    "Width": 32.0,
+    "DefaultSprite": {
+      "Name": "Sprites/Walls/Level1X/BottomLamp",
+	  "AnimationCycle": 6.0
+    }
+  },
+  "TopLamp": {
+    "$type": "ExplainingEveryString.Data.Blueprints.Blueprint, ExplainingEveryString.Data",
+    "Height": 16.0,
+    "Width": 32.0,
+    "DefaultSprite": {
+      "Name": "Sprites/Walls/Level1X/TopLamp",
+	  "AnimationCycle": 6.0
+    }
   }
 }
