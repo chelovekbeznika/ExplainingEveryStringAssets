@@ -929,10 +929,10 @@
     "CollisionDamage": 25.0,
     "Height": 32.0,
     "Width": 32.0,
-    "Hitpoints": 25.0,
+    "Hitpoints": 40.0,
     "DefaultSprite": {
       "Name": "Sprites/Enemies/Level1X/MonorailCannon",
-	  "AnimationCycle": 1.0
+      "AnimationCycle": 1.0
     },
     "DeathEffect": {
       "Sound": {
@@ -948,7 +948,7 @@
       "Name": "Sprites/Enemies/Appearance/32_32",
       "AnimationCycle": 0.333333
     },
-    "DefaultAppearancePhaseDuration": 1.0,
+    "DefaultAppearancePhaseDuration": 0.5,
     "AfterAppearanceEffect": {
       "Sound": {
         "Name": "Sounds/StandardEnemy/Appearance",
