@@ -929,7 +929,7 @@
     "CollisionDamage": 25.0,
     "Height": 32.0,
     "Width": 32.0,
-    "Hitpoints": 40.0,
+    "Hitpoints": 30.0,
     "DefaultSprite": {
       "Name": "Sprites/Enemies/Level1X/MonorailCannon",
       "AnimationCycle": 1.0
@@ -1118,10 +1118,10 @@
         "AimType": "FixedFireDirection"
       }
     },
-    "DefaultAppearancePhaseDuration": 0.33333,
+    "DefaultAppearancePhaseDuration": 1.5,
     "AppearancePhaseSprite": {
       "Name": "Sprites/Enemies/Appearance/MineDiggingUp",
-      "AnimationCycle": 0.33333
+      "AnimationCycle": 1.5
     },
     "BeforeAppearanceEffect": {
       "Sound": {

@@ -223,7 +223,6 @@
           }
         }
       ],
-      "MaxEnemiesAtOnce": 3,
       "Enemies": [
         {
           "BlueprintType": "MonorailCannon",
@@ -267,6 +266,111 @@
             "0.0, 0.0"
           ]
         }
+      ]
+    },
+    {
+      "StartRegion": {
+        "X": 135,
+        "Y": 30,
+        "Width": 5,
+        "Height": 20
+      },
+      "Doors": [
+        {
+          "BlueprintType": "BridgeBlocker",
+          "TilePosition": {
+            "X": 180,
+            "Y": 39,
+            "Offset": "8.0, -8.0"
+          }
+        },
+        {
+          "ClosesAt": 3,
+          "BlueprintType": "BridgeBlocker",
+          "TilePosition": {
+            "X": 110,
+            "Y": 39,
+            "Offset": "8.0, -8.0"
+          }
+        }
+      ],
+      "MaxEnemiesAtOnce": 3,
+      "Enemies": [
+        {
+          "BlueprintType": "MonorailCannon",
+          "TilePosition": {
+            "X": 150,
+            "Y": 37,
+            "Offset": "8.0, -8.0"
+          },
+          "TrajectoryTargets": [
+            "0.0, 80.0",
+            "-336.0, 80.0",
+            "-336.0, -64.0",
+            "-160.0, -64.0",
+            "-336.0, -64.0",
+            "-336.0, 80.0",
+            "0.0, 80.0",
+            "0.0, 0.0"
+          ]
+        },
+        {
+          "BlueprintType": "MonorailCannon",
+          "TilePosition": {
+            "X": 176,
+            "Y": 45,
+            "Offset": "8.0, -8.0"
+          },
+          "TrajectoryTargets": [
+            "-560.0, 0.0",
+            "0.0, 0.0"
+          ]
+        },
+        {
+          "BlueprintType": "Hunter_mk1",
+          "TilePosition": {
+            "X": 175,
+            "Y": 31,
+          }
+        },
+        {
+          "BlueprintType": "Hunter_mk1",
+          "TilePosition": {
+            "X": 161,
+            "Y": 32,
+          }
+        },
+        {
+          "BlueprintType": "Hunter_mk1",
+          "TilePosition": {
+            "X": 176,
+            "Y": 41,
+          }
+        },
+        {
+          "BlueprintType": "MonorailCannon",
+          "TilePosition": {
+            "X": 115,
+            "Y": 46,
+            "Offset": "8.0, -8.0"
+          },
+          "TrajectoryTargets": [
+            "144.0, 0.0",
+            "0.0, 0.0"
+          ]
+        },
+        {
+          "BlueprintType": "MonorailCannon",
+          "TilePosition": {
+            "X": 160,
+            "Y": 37,
+            "Offset": "8.0, -8.0"
+          },
+          "TrajectoryTargets": [
+            "256.0, 0.0",
+            "0.0, 0.0"
+          ]
+        },
       ]
     }
   ],
