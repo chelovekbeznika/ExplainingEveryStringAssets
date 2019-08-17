@@ -26,17 +26,13 @@
       ],
       "MaxEnemiesAtOnce": 2,
       "Enemies": [
-	    {
-		  "BlueprintType": "MonorailCannon",
+        {
+          "BlueprintType": "Mine_mk1",
           "TilePosition": {
             "X": "16",
             "Y": "23"
-          },
-          "TrajectoryTargets": [
-            "0.0, -100.0",
-            "0.0, 0.0"
-          ]
-		},
+          }
+        },
         {
           "BlueprintType": "Hunter",
           "TilePosition": {

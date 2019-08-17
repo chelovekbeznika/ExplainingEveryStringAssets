@@ -53,6 +53,10 @@
       "AnimationFrames": 6
     },
     {
+      "Name": "Sprites/Enemies/Appearance/MineDiggingUp",
+      "AnimationFrames": 4
+    },
+    {
       "Name": "Sprites/Enemies/Appearance/Helicopter",
       "AnimationFrames": 14
     },
@@ -64,7 +68,7 @@
       "Name": "Sprites/Player/Death",
       "AnimationFrames": 13
     },
-	{
+    {
       "Name": "Sprites/Player/CannonDeath",
       "AnimationFrames": 9
     },
@@ -78,7 +82,7 @@
     },
     {
       "Name": "Sprites/Enemies/Level1X/MonorailCannon",
-	  "AnimationFrames": 6
+      "AnimationFrames": 6
     },
     {
       "Name": "Sprites/Enemies/Level1X/Helicopter",
@@ -122,7 +126,11 @@
     },
     {
       "Name": "Sprites/Enemies/Level1X/Death/MonorailCannon",
-	  "AnimationFrames": 11
+      "AnimationFrames": 11
+    },
+    {
+      "Name": "Sprites/Enemies/Level1X/Death/Mine",
+      "AnimationFrames": 7
     },
     {
       "Name": "Sprites/Enemies/Level1X/Death/Helicopter",
@@ -135,14 +143,14 @@
     {
       "Name": "Sprites/Doors/Level1X/BigIceDoorOpening",
       "AnimationFrames": 8
-    },	
-	{
-	  "Name": "Sprites/Doors/Level1X/BridgeBlockerOpening",
-	  "AnimationFrames": 8
-	},
-	{
-	  "Name": "Sprites/Doors/Level1X/BridgeLockOpening",
-	  "AnimationFrames": 3
-	}
+    },
+    {
+      "Name": "Sprites/Doors/Level1X/BridgeBlockerOpening",
+      "AnimationFrames": 8
+    },
+    {
+      "Name": "Sprites/Doors/Level1X/BridgeLockOpening",
+      "AnimationFrames": 3
+    }
   ]
 }
