@@ -594,7 +594,7 @@
         },
         {
           "BlueprintType": "Hunter_mk1",
-          "AppearancePhaseDuration": 1.5,
+          "AppearancePhaseDuration": 2.0,
           "TilePosition": {
             "X": 259,
             "Y": 33,
@@ -603,7 +603,7 @@
         },
         {
           "BlueprintType": "Hunter_mk1",
-          "AppearancePhaseDuration": 1.5,
+          "AppearancePhaseDuration": 2.0,
           "TilePosition": {
             "X": 265,
             "Y": 44
@@ -611,7 +611,7 @@
         },
         {
           "BlueprintType": "Hunter_mk1",
-          "AppearancePhaseDuration": 1.5,
+          "AppearancePhaseDuration": 2.0,
           "TilePosition": {
             "X": 252,
             "Y": 45,
@@ -620,7 +620,7 @@
         },
         {
           "BlueprintType": "Hunter_mk1",
-          "AppearancePhaseDuration": 1.5,
+          "AppearancePhaseDuration": 2.0,
           "TilePosition": {
             "X": 248,
             "Y": 37,
@@ -629,7 +629,7 @@
         },
         {
           "BlueprintType": "Hunter_mk1",
-          "AppearancePhaseDuration": 1.5,
+          "AppearancePhaseDuration": 2.0,
           "TilePosition": {
             "X": 256,
             "Y": 38,
@@ -638,7 +638,7 @@
         },
         {
           "BlueprintType": "Hunter_mk1",
-          "AppearancePhaseDuration": 1.5,
+          "AppearancePhaseDuration": 2.0,
           "TilePosition": {
             "X": 267,
             "Y": 42
@@ -646,7 +646,7 @@
         },
         {
           "BlueprintType": "Hunter_mk1",
-          "AppearancePhaseDuration": 1.5,
+          "AppearancePhaseDuration": 2.0,
           "TilePosition": {
             "X": 263,
             "Y": 44
@@ -707,6 +707,100 @@
           "TilePosition": {
             "X": 298,
             "Y": 48
+          }
+        }
+      ]
+    },
+    {
+      "StartRegion": {
+        "X": 300,
+        "Y": 30,
+        "Width": 10,
+        "Height": 20
+      },
+      "Doors": [
+        {
+          "BlueprintType": "BridgeBlocker",
+          "TilePosition": {
+            "X": 310,
+            "Y": 39,
+            "Offset": "8.0, -8.0"
+          }
+        },
+        {
+          "ClosesAt": 6,
+          "BlueprintType": "BridgeBlocker",
+          "TilePosition": {
+            "X": 273,
+            "Y": 39,
+            "Offset": "8.0, -8.0"
+          }
+        }
+      ],
+      "MaxEnemiesAtOnce": 2,
+      "Enemies": [
+        {
+          "BlueprintType": "Tank_mk1",
+          "TilePosition": {
+            "X": 275,
+            "Y": 30,
+            "Offset": "8.0, -8.0"
+          }
+        },
+        {
+          "BlueprintType": "Tank_mk1",
+          "TilePosition": {
+            "X": 308,
+            "Y": 49,
+            "Offset": "8.0, 8.0"
+          }
+        },
+        {
+          "BlueprintType": "Tank_mk1",
+          "TilePosition": {
+            "X": 308,
+            "Y": 30,
+            "Offset": "8.0, -8.0"
+          }
+        },
+        {
+          "BlueprintType": "Tank_mk1",
+          "TilePosition": {
+            "X": 275,
+            "Y": 49,
+            "Offset": "8.0, 8.0"
+          }
+        },
+        {
+          "BlueprintType": "Tank_mk1",
+          "TilePosition": {
+            "X": 277,
+            "Y": 32,
+            "Offset": "8.0, -8.0"
+          }
+        },
+        {
+          "BlueprintType": "Tank_mk1",
+          "TilePosition": {
+            "X": 306,
+            "Y": 47,
+            "Offset": "8.0, 8.0"
+          }
+        },
+        {
+          "BlueprintType": "Tank_mk1",
+          "TilePosition": {
+            "X": 306,
+            "Y": 32,
+            "Offset": "8.0, -8.0"
+          }
+        },
+        {
+          "BlueprintType": "Tank_mk1",
+          "TilePosition": {
+            "X": 277,
+            "Y": 47,
+            "Offset": "8.0, 8.0"
           }
         }
       ]
