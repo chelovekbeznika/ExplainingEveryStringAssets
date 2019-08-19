@@ -272,7 +272,7 @@
       "StartRegion": {
         "X": 135,
         "Y": 30,
-        "Width": 5,
+        "Width": 25,
         "Height": 20
       },
       "Doors": [
@@ -371,6 +371,161 @@
             "0.0, 0.0"
           ]
         },
+      ]
+    },
+    {
+      "StartRegion": {
+        "X": 190,
+        "Y": 30,
+        "Width": 50,
+        "Height": 20
+      },
+      "Doors": [
+        {
+          "BlueprintType": "BridgeBlocker",
+          "TilePosition": {
+            "X": 240,
+            "Y": 39,
+            "Offset": "8.0, -8.0"
+          }
+        },
+        {
+          "ClosesAt": 4,
+          "BlueprintType": "BridgeBlocker",
+          "TilePosition": {
+            "X": 180,
+            "Y": 39,
+            "Offset": "8.0, -8.0"
+          }
+        }
+      ],
+      "Enemies": [
+        {
+          "BlueprintType": "Mine_mk1",
+          "TilePosition": {
+            "X": 183,
+            "Y": 33
+          }
+        },
+        {
+          "BlueprintType": "Mine_mk1",
+          "TilePosition": {
+            "X": 186,
+            "Y": 46
+          }
+        },
+        {
+          "BlueprintType": "Mine_mk1",
+          "TilePosition": {
+            "X": 201,
+            "Y": 35
+          }
+        },
+        {
+          "BlueprintType": "Mine_mk1",
+          "TilePosition": {
+            "X": 202,
+            "Y": 43
+          }
+        },
+        {
+          "BlueprintType": "Mine_mk1",
+          "TilePosition": {
+            "X": 207,
+            "Y": 47
+          }
+        },
+        {
+          "BlueprintType": "Mine_mk1",
+          "TilePosition": {
+            "X": 213,
+            "Y": 33
+          }
+        },
+        {
+          "BlueprintType": "Mine_mk1",
+          "TilePosition": {
+            "X": 219,
+            "Y": 40
+          }
+        },
+        {
+          "BlueprintType": "Mine_mk1",
+          "TilePosition": {
+            "X": 223,
+            "Y": 46
+          }
+        },
+        {
+          "BlueprintType": "Mine_mk1",
+          "TilePosition": {
+            "X": 226,
+            "Y": 31
+          }
+        },
+        {
+          "BlueprintType": "Mine_mk1",
+          "TilePosition": {
+            "X": 231,
+            "Y": 39
+          }
+        },
+        {
+          "BlueprintType": "Mine_mk1",
+          "TilePosition": {
+            "X": 232,
+            "Y": 36
+          }
+        },
+        {
+          "BlueprintType": "Mine_mk1",
+          "TilePosition": {
+            "X": 232,
+            "Y": 40
+          }
+        },
+        {
+          "BlueprintType": "Mine_mk1",
+          "TilePosition": {
+            "X": 233,
+            "Y": 40
+          }
+        },
+        {
+          "BlueprintType": "Mine_mk1",
+          "TilePosition": {
+            "X": 234,
+            "Y": 40
+          }
+        },
+        {
+          "BlueprintType": "Mine_mk1",
+          "TilePosition": {
+            "X": 235,
+            "Y": 40
+          }
+        },
+        {
+          "BlueprintType": "Mine_mk1",
+          "TilePosition": {
+            "X": 236,
+            "Y": 40
+          }
+        },
+        {
+          "BlueprintType": "Mine_mk1",
+          "TilePosition": {
+            "X": 236,
+            "Y": 36
+          }
+        },
+        {
+          "BlueprintType": "Mine_mk1",
+          "TilePosition": {
+            "X": 237,
+            "Y": 39
+          }
+        }
       ]
     }
   ],
