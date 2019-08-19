@@ -527,6 +527,132 @@
           }
         }
       ]
+    },
+    {
+      "StartRegion": {
+        "X": 240,
+        "Y": 30,
+        "Width": 30,
+        "Height": 20
+      },
+      "Doors": [
+        {
+          "BlueprintType": "BridgeBlocker",
+          "TilePosition": {
+            "X": 270,
+            "Y": 39,
+            "Offset": "8.0, -8.0"
+          }
+        },
+        {
+          "ClosesAt": 5,
+          "BlueprintType": "BridgeBlocker",
+          "TilePosition": {
+            "X": 233,
+            "Y": 39,
+            "Offset": "8.0, -8.0"
+          }
+        }
+      ],
+      "MaxEnemiesAtOnce": 7,
+      "Enemies": [
+        {
+          "BlueprintType": "FixedCannon_mk1",
+          "Angle": 0.0,
+          "TilePosition" : {
+            "X": 235,
+            "Y": 30,
+            "Offset": "8.0, -8.0"
+          }
+        },
+        {
+          "BlueprintType": "FixedCannon_mk1",
+          "Angle": -90.0,
+          "TilePosition": {
+            "X": 268,
+            "Y": 30,
+            "Offset": "8.0, -8.0"
+          }
+        },
+        {
+          "BlueprintType": "FixedCannon_mk1",
+          "Angle": 180.0,
+          "TilePosition": {
+            "X": 268, 
+            "Y": 48,
+            "Offset": "8.0, -8.0"
+          }
+        },
+        {
+          "BlueprintType": "FixedCannon_mk1",
+          "Angle": 90.0,
+          "TilePosition": {
+            "X": 235,
+            "Y": 48,
+            "Offset": "8.0, -8.0"
+          }
+        },
+        {
+          "BlueprintType": "Hunter_mk1",
+          "AppearancePhaseDuration": 1.5,
+          "TilePosition": {
+            "X": 259,
+            "Y": 33,
+            "Offset": "8.0, -8.0"
+          }
+        },
+        {
+          "BlueprintType": "Hunter_mk1",
+          "AppearancePhaseDuration": 1.5,
+          "TilePosition": {
+            "X": 265,
+            "Y": 44
+          }
+        },
+        {
+          "BlueprintType": "Hunter_mk1",
+          "AppearancePhaseDuration": 1.5,
+          "TilePosition": {
+            "X": 252,
+            "Y": 45,
+            "Offset": "8.0, -8.0"
+          }
+        },
+        {
+          "BlueprintType": "Hunter_mk1",
+          "AppearancePhaseDuration": 1.5,
+          "TilePosition": {
+            "X": 248,
+            "Y": 37,
+            "Offset": "8.0, -8.0"
+          }
+        },
+        {
+          "BlueprintType": "Hunter_mk1",
+          "AppearancePhaseDuration": 1.5,
+          "TilePosition": {
+            "X": 256,
+            "Y": 38,
+            "Offset": "8.0, 0.0"
+          }
+        },
+        {
+          "BlueprintType": "Hunter_mk1",
+          "AppearancePhaseDuration": 1.5,
+          "TilePosition": {
+            "X": 267,
+            "Y": 42
+          }
+        },
+        {
+          "BlueprintType": "Hunter_mk1",
+          "AppearancePhaseDuration": 1.5,
+          "TilePosition": {
+            "X": 263,
+            "Y": 44
+          }
+        },
+      ]
     }
   ],
   "WallsTilePositions": {
