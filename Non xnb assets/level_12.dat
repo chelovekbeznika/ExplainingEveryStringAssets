@@ -804,6 +804,130 @@
           }
         }
       ]
+    },
+    {
+      "StartRegion": {
+        "X": 310,
+        "Y": 30,
+        "Width": 30,
+        "Height": 20
+      },
+      "Doors": [
+        {
+          "ClosesAt": 0,
+          "BlueprintType": "BridgeLock",
+          "TilePosition": {
+            "X": 36,
+            "Y": 39,
+            "Offset": "8.0, -8.0"
+          }
+        },
+        {
+          "ClosesAt": 0,
+          "BlueprintType": "BridgeLock",
+          "TilePosition": {
+            "X": 340,
+            "Y": 39,
+            "Offset": "8.0, -8.0"
+          }
+        },
+        {
+          "ClosesAt": 8,
+          "BlueprintType": "BridgeBlocker",
+          "TilePosition": {
+            "X": 298,
+            "Y": 39,
+            "Offset": "8.0, -8.0"
+          }
+        }
+      ],
+      "MaxEnemiesAtOnce": 5,
+      "Enemies": [
+        {
+          "BlueprintType": "Mine_mk1", 
+          "TilePosition": {
+            "X": 338,
+            "Y": 41
+          }
+        },
+        {
+          "BlueprintType": "Hunter_mk1", 
+          "TilePosition": {
+            "X": 339,
+            "Y": 34
+          }
+        },
+        {
+          "BlueprintType": "Mine_mk1", 
+          "TilePosition": {
+            "X": 303,
+            "Y": 34
+          }
+        },
+        {
+          "BlueprintType": "Hunter_mk1", 
+          "TilePosition": {
+            "X": 302,
+            "Y": 48
+          }
+        },
+        {
+          "BlueprintType": "Mine_mk1", 
+          "TilePosition": {
+            "X": 327,
+            "Y": 43
+          }
+        },
+        {
+          "BlueprintType": "Hunter_mk1", 
+          "TilePosition": {
+            "X": 330,
+            "Y": 32
+          }
+        },
+        {
+          "BlueprintType": "Mine_mk1", 
+          "TilePosition": {
+            "X": 309,
+            "Y": 40
+          }
+        },
+        {
+          "BlueprintType": "Hunter_mk1", 
+          "TilePosition": {
+            "X": 310,
+            "Y": 42
+          }
+        },
+        {
+          "BlueprintType": "Mine_mk1", 
+          "TilePosition": {
+            "X": 333,
+            "Y": 37
+          }
+        },
+        {
+          "BlueprintType": "Hunter_mk1", 
+          "TilePosition": {
+            "X": 338,
+            "Y": 30
+          }
+        },
+        {
+          "BlueprintType": "Mine_mk1", 
+          "TilePosition": {
+            "X": 301,
+            "Y": 31
+          }
+        },
+        {
+          "BlueprintType": "Hunter_mk1", 
+          "TilePosition": {
+            "X": 301,
+            "Y": 48
+          }
+        },
+      ]
     }
   ],
   "WallsTilePositions": {
