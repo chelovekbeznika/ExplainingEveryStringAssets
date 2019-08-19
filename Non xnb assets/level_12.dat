@@ -653,6 +653,63 @@
           }
         },
       ]
+    },
+    {
+      "StartRegion": {
+        "X": 280,
+        "Y": 30,
+        "Width": 20,
+        "Height": 20
+      },
+      "Doors": [
+        {
+          "BlueprintType": "BridgeBlocker",
+          "TilePosition": {
+            "X": 300,
+            "Y": 39,
+            "Offset": "8.0, -8.0"
+          }
+        },
+        {
+          "ClosesAt": 6,
+          "BlueprintType": "BridgeBlocker",
+          "TilePosition": {
+            "X": 273,
+            "Y": 39,
+            "Offset": "8.0, -8.0"
+          }
+        }
+      ],
+      "Enemies": [
+        {
+          "BlueprintType": "TripleCannon_mk1",
+          "TilePosition": {
+            "X": 276,
+            "Y": 31
+          }
+        },
+        {
+          "BlueprintType": "TripleCannon_mk1",
+          "TilePosition": {
+            "X": 276,
+            "Y": 48
+          }
+        },
+        {
+          "BlueprintType": "TripleCannon_mk1",
+          "TilePosition": {
+            "X": 298,
+            "Y": 31
+          }
+        },
+        {
+          "BlueprintType": "TripleCannon_mk1",
+          "TilePosition": {
+            "X": 298,
+            "Y": 48
+          }
+        }
+      ]
     }
   ],
   "WallsTilePositions": {
