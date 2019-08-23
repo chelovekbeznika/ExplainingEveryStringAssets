@@ -122,6 +122,24 @@
 /processorParam:Quality=Best
 /build:Sounds/StandardEnemy/SmallExplosion.wav
 
+#begin Sounds/SwanDyingScream.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/SwanDyingScream.wav
+
+#begin Sounds/SwanPecking.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/SwanPecking.wav
+
+#begin Sounds/SwanShot.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/SwanShot.wav
+
 #begin Sounds/TestOpeningDoor.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
@@ -446,6 +464,18 @@
 /processorParam:TextureFormat=Color
 /build:Sprites/Enemies/Level1X/Appearance/Helicopter.png
 
+#begin Sprites/Enemies/Level1X/Appearance/Swan.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/Enemies/Level1X/Appearance/Swan.png
+
 #begin Sprites/Enemies/Level1X/Appearance/TripleCannon.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -541,6 +571,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Sprites/Enemies/Level1X/Death/MonorailCannon.png
+
+#begin Sprites/Enemies/Level1X/Death/Swan.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/Enemies/Level1X/Death/Swan.png
 
 #begin Sprites/Enemies/Level1X/Death/Tank.png
 /importer:TextureImporter
@@ -649,6 +691,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Sprites/Enemies/Level1X/MonorailCannon.png
+
+#begin Sprites/Enemies/Level1X/Swan.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/Enemies/Level1X/Swan.png
 
 #begin Sprites/Enemies/Level1X/TankBase.png
 /importer:TextureImporter

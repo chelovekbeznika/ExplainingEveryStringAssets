@@ -97,12 +97,20 @@
       "AnimationFrames": 6
     },
     {
+      "Name": "Sprites/Enemies/Level1X/Swan",
+      "AnimationFrames": 12
+    },
+    {
       "Name": "Sprites/Enemies/Level1X/Appearance/TripleCannon",
       "AnimationFrames": 2
     },
     {
       "Name": "Sprites/Enemies/Level1X/Appearance/Helicopter",
       "AnimationFrames": 14
+    },
+    {
+      "Name": "Sprites/Enemies/Level1X/Appearance/Swan",
+      "AnimationFrames": 18
     },
     {
       "Name": "Sprites/Enemies/Level1X/Death/Cannon",
@@ -135,6 +143,10 @@
     {
       "Name": "Sprites/Enemies/Level1X/Death/Helicopter",
       "AnimationFrames": 7
+    },
+    {
+      "Name": "Sprites/Enemies/Level1X/Death/Swan",
+      "AnimationFrames": 10
     },
     {
       "Name": "Sprites/Doors/Level1X/IceDoorOpening",

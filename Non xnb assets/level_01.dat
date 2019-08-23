@@ -27,10 +27,11 @@
       "MaxEnemiesAtOnce": 2,
       "Enemies": [
         {
-          "BlueprintType": "Mine_mk1",
+          "BlueprintType": "FixedCannon",
+          "Angle": 90.0,
           "TilePosition": {
-            "X": "16",
-            "Y": "23"
+            "X": 5,
+            "Y": 5
           }
         },
         {
