@@ -204,6 +204,14 @@
         "Width": 5,
         "Height": 20
       },
+      "Checkpoint": {
+        "Name": "Monorail",
+        "PlayerPosition": {
+          "X": 104,
+          "Y": 39,
+          "Offset": "8.0, -8.0"
+        }
+      },
       "Doors": [
         {
           "BlueprintType": "BridgeBlocker",
@@ -379,6 +387,14 @@
         "Y": 30,
         "Width": 50,
         "Height": 20
+      },
+      "Checkpoint": {
+        "Name": "Minefield",
+        "PlayerPosition": {
+          "X": 184,
+          "Y": 39,
+          "Offset": "8.0, -8.0"
+        }
       },
       "Doors": [
         {
@@ -661,6 +677,14 @@
         "Width": 20,
         "Height": 20
       },
+      "Checkpoint": {
+        "Name": "TightSpot",
+        "PlayerPosition": {
+          "X": 277,
+          "Y": 39,
+          "Offset": "8.0, -8.0"
+        }
+      },
       "Doors": [
         {
           "BlueprintType": "BridgeBlocker",
@@ -898,9 +922,16 @@
     {
       "StartRegion": {
         "X": 295,
-        "Y": 30,
+        "Y": 40,
         "Width": 30,
-        "Height": 20
+        "Height": 10
+      },
+      "Checkpoint": {
+        "Name": "Boss",
+        "PlayerPosition": {
+          "X": 293,
+          "Y": 33
+        }
       },
       "Doors": [
         {

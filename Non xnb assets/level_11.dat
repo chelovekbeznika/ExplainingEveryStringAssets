@@ -104,6 +104,14 @@
         "Height": 10,
         "Width": 8
       },
+      "Checkpoint": {
+        "Name": "FirstHallway",
+        "PlayerPosition": {
+          "X": 47,
+          "Y": 214,
+          "Offset": "8.0, -8.0"
+        }
+      },
       "Doors": [
         {
           "BlueprintType": "IceDoor",
@@ -195,6 +203,14 @@
         "Y": 128,
         "Height": 24,
         "Width": 64
+      },
+      "Checkpoint": {
+        "Name": "Center",
+        "PlayerPosition": {
+          "X": 47,
+          "Y": 183,
+          "Offset": "8.0, -8.0"
+        }
       },
       "Doors": [
         {
@@ -408,6 +424,14 @@
         "Height": 14,
         "Width": 50
       },
+      "Checkpoint": {
+        "Name": "SecondHallway",
+        "PlayerPosition": {
+          "X": 47,
+          "Y": 104,
+          "Offset": "8.0, -8.0"
+        }
+      },
       "Doors": [
         {
           "BlueprintType": "BigIceDoor",
@@ -510,6 +534,14 @@
         "Y": 17,
         "Height": 20,
         "Width": 50
+      },
+      "Checkpoint": {
+        "Name": "Boss",
+        "PlayerPosition": {
+          "X": 47,
+          "Y": 58,
+          "Offset": "8.0, -8.0"
+        }
       },
       "SpawnPoints": [
         {
